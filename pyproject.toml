@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "babyagi"
+name = "ouro"
 version = "0.0.8"
-description = ""
+description = "An experimental framework for a self-building autonomous agent."
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]

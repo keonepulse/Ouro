@@ -13,14 +13,12 @@ def parse_requirements(filename):
     return [line.strip() for line in lines if line.strip() and not line.startswith("#")]
 
 setup(
-    name="babyagi",  # Ensure this is the desired package name
+    name="ouro",
     version="0.1.2",  # Update this version appropriately
-    author="Yohei Nakajima",
-    author_email="babyagi@untapped.vc",
+    author="",
     description="An experimental prototype framework for building self building autonomous agents.",
     long_description=  long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yoheinakajima/babyagi",  # Update if necessary
     packages=find_packages(),
     include_package_data=True,  # Include package data as specified in MANIFEST.in
     classifiers=[
@@ -35,8 +33,5 @@ setup(
             'babyagi=babyagi.main:main',  # Example entry point
         ],
     },
-    keywords="AGI, AI, Framework, Baby AGI",
-    project_urls={  # Optional
-        "Author": "https://x.com/yoheinakajima",
-    },
+    keywords="AGI, AI, Framework, Autonomous Agents",
 )
